@@ -39,4 +39,8 @@ on the size of the matrix; any additional storage you need should be allocated d
 gcc rand_lp.c -o rand_lp.out"
 ./rand_lp.out
 ```
+For segmentation fault use:
+```sh
+ulimit -s unlimited
+```
 ***Takes different time to execute for every execution due to random permutation.***
